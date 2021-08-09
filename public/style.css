@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat-SemiBold");
+
+/*top bar*/
+.top-bar {
+    background: #fcab01;
+    height: 2.4rem;
+    padding: 1px;
+    z-index: 1000;
+  }
+  .top-bar a{
+      color: #fff;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  /*Navbar styles*/
+  .navbar {
+        
+
+    padding: 1rem;
+  }
+  #navbarNavAltMarkup > ul > li:nth-child(n) > a{
+    color:rgb(10, 49, 23);
+    font-size: 1.2rem;
+    padding: 0.0.8rem;
+  }
+  #navbarNavAltMarkup > ul > li:nth-child(n) > a:hover{
+    color: #fcab01;
+  }
+  /*Styling the Carousel*/
+  .carousel-item{
+    height: 690px;
+    min-height: 300px;
+    font-size: 60px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.service-section p{
+    color: gray;
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/*Styling the Executive Summary Section*/
+.button {
+    background-color: #fcab01; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+  } 
+#exec{
+    background-color: rgb(223, 230, 209);
+}
+.exec p{
+    color: gray;
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.exec a{
+    background-color: #fcab01; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+   
+  
+}
+/*Styling the bottom section*/
+
+#cards{
+    padding: 15px;
+}
+#cards .card{
+    box-shadow: 0 0 12px;
+}
+#more{
+    display: none;
+}
+#moretext{
+    display: none;
+}
+#moreContent{
+    display: none;
+}
+#cards button{
+    background-color: #fcab01; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+#cards p{
+    color: gray;
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
+
+#cards ul li{
+    color: gray;
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
+/*Styling the Objectives*/
+#objectives{
+    padding: 50px;
+    text-align: center;
+}
+.obj{
+    text-align: left;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+/*Styling the footer*/
+/*styling the footer*/
+body > footer{
+
+    background-color: rgb(68, 75, 68);
+
+
+}
+body > footer a{
+    color: #fff;
+    list-style: none;
+}
+/**Styling the team Section*/
+.team{
+    background: url(/Images/boardroom.jpg);
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+.team h2 {
+    color: rgb(24, 21, 21);
+    font-weight: bold;
+}
+.team img{
+ text-align: end;
+}
+.team p {
+    color: rgb(19, 16, 16);
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 18px;
+    
+
+}
+.team h6{
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+}
+.team a{
+    background-color: #fcab01; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+   
+}
+
+
+/*Adding Animation Slidins to various components*/
+@keyframes slideIn{
+    0%{
+        transform: skewX(53deg) translateX(-500);
+    }
+    100% {
+
+        transform: skew(0deg);
+    }
+}
+/*footer section*/
+body > footer > div.container-fluid.text-center.text-md-left > div > div.col-md-6.mt-md-0.mt-3 > h6:nth-child(n){
+
+    color: rgb(251, 246, 246);
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
+body > footer > div.container-fluid.text-center.text-md-left > div > div.col-md-6.mt-md-0.mt-3 > h5:nth-child(n){
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
+body > footer > div.container-fluid.text-center.text-md-left > div > div.col-md-6.mb-md-0.mb-3 > h5{
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
+body > footer > div.container-fluid.text-center.text-md-left > div > div.col-md-6.mb-md-0.mb-3 > h6:nth-child(n){
+    color: rgb(251, 246, 246);
+    font-weight: Montserrat-SemiBold;
+    font-weight: lighter;
+    font-size: 20px
+}
